@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is Bazan Shinko's homepage.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Bazan Shinko's Homepage</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="album.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* General links inside <strong>: no underline, black, bold */
+  strong a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #666;
+  }
+
+  /* Hover effect for links in <strong> */
+  strong a:hover {
+    color: #666;
+  }
+
+  /* CV download link: keep underline */
+  a.cv-link {
+    color: black;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  /* CV download hover effect */
+  a.cv-link:hover {
+    color: #666;
+  }
+
+  .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  .toggle-btn[aria-expanded="true"] .arrow {
+    transform: rotate(-90deg); /* apunta cap a la dreta quan obert */
+  }
+
+  .projects-section a {
+      color: #007bff;
+    }
+    .projects-section a:hover {
+      color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white"></h4>
+            <p class="text-muted"></p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Title on the left -->
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>Bazan Shinko's Homepage</strong>
+        </a>
+
+        <!-- Language links on the right -->
+        <div>
+          <a href="index-jp.html" class="text-white mr-2">JP</a>
+          <a href="index.html" class="text-white">EN</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" class="container">
+    <div class="row">
+      <!-- Left column -->
+      <aside class="col-md-3 text-center">
+        <img src="profile_picture.jpg" alt="Bazan Shinko's picture" class="img-fluid mb-3" style="margin-top: 20px; height: 40vh; width: 100%; object-fit: cover;">
+        <div class="text-left">
+          <div style="font-size: 1.5em;">
+            <a href="mailto:bazan_shinn@gmail.com" style="color: black; margin-right: 10px;">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://github.com/shinjatta" target="_blank" style="color: black; margin-right: 10px;">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://jp.linkedin.com/in/cintabazan?" target="_blank" style="color: black;">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+           <a href="bazancv.pdf" download class="cv-link" style="font-size: 1rem;">Download CV</a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right column -->
+      <section class="col-md-9">
+        <br>
+        <h2>Shinko BAZAN 波山慎子</h2>
+        <br>
+
+        <!-- About section -->
+        <section>
+          <h4>About</h4>
+          <ol style="list-style-type: none">
+            <li>
+              I am an Undergraduate Student at Nara Women's University</a>.
+            </li>
+          </ol>
+        </section>
+
+
+        <!-- Education section -->
+        <section>
+          <h4>Education</h4>
+          <ol style="list-style-type: square">
+            <li> 
+              <strong> <a href="https://www.nara-wu.ac.jp/life/ccs/lics/index_english.html" target="_blank" style="font-size: 1rem;">Bachelor of Computer Science</a></strong> <i>April 2023 – March 2027</i><br>
+              <a href="https://www.nara-wu.ac.jp/nwu/en/" target="_blank">Nara Women’s University</a> – Nara
+            </li>
+            <li>
+              <strong><a href="https://www.tokyogalaxy.ac.jp/en/courses/preparatory-class" target="_blank" style="font-size: 1rem;">Special Preparatory Class for College Admission</a></strong> <i>October 2021 – March 2023</i><br>
+              <a href="https://www.tokyogalaxy.ac.jp/en/school" target="_blank" style="font-size: 1rem;">Tokyo Galaxy Language School</a> – Tokyo
+            </li>
+            <li>
+              <strong><a href="https://stucom.com/formacio-professional/grau-superior/desenvolupament-aplicacions-web/" target="_blank" style="font-size: 1rem;">Training College – Web Programming</a></strong> <i>September 2019 – May 2021</i><br>
+              <a href="https://stucom.com/" target="_blank" style="font-size: 1rem;">Stucom Centre d'Estudis</a> – Barcelona
+            </li>
+          </ol>
+        </section>
+
+        <!-- Work experience section -->
+        <section>
+          <h4>Work experience</h4>
+          <ol style="list-style-type: square">
+            <li>
+              <strong><a href="https://careers.mercari.com/en/mercan/articles/40098/" target="_blank" style="font-size: 1rem;">Build@Mercari Trainee </a></strong> <i>May 2023</i><br>
+              Mercari, Tokyo, Japan
+            </li> 
+            <li>
+              <strong>Junior Back-end Developer</strong> <i>2021</i><br>
+              Giro Hosting S.A., Girona, Spain
+            </li>
+          </ol>
+
+          <!-- Toggle button for additional work -->
+          <button class="btn toggle-btn mb-2"  type="button"
+          data-toggle="collapse" data-target="#otherWork"
+          aria-expanded="false" aria-controls="otherWork"
+          style="color: black; background-color: transparent; border: none; padding: 0; text-decoration: none;">
+          Other work experience <span class="arrow">▼</span>
+          </button>
+        
+
+
+          <!-- Collapsible additional work experience -->
+          <div class="collapse" id="otherWork">
+            <ol style="list-style-type: square">
+              <li>
+                <strong>English and Maths tutor</strong> <i>2023–Current</i><br>
+                School TOMAS Co. Ltd, Osaka, Japan
+              </li>
+              <li>
+                <strong>Japanese to Spanish-Catalan Interpreter</strong> <i>October 2024 - November 2024</i><br>
+                Barça Academy, Osaka-Nara-Kyoto, Japan
+              </li>
+              <li>
+                <strong>Tsunokiri event staff</strong> <i>November 2024</i><br>
+                Nara Deer Protection Association, Nara, Japan
+              </li>
+              <li>
+                <strong>International staff</strong> <i>October 2023</i><br>
+                Nara Scouts, Ikoma, Japan
+              </li>
+              <li>
+                <strong>Barista</strong> <i>January 2020 - March 2022</i><br>
+                Sandwichez, Barcelona, Spain
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="projects-section">
+          <h4>Projects</h4>
+          <ol style="list-style-type: square">
+            <li>
+              <strong>Rei Japanese Dictionary</strong> <i>2021</i> (<a href="https://github.com/shinjatta/rei">Git</a> | 
+          <a href="https://stucom.com/projects/rei-diccionari-en-japones-amb-traduccio-al-angles-i-castella/">Article</a>)<br>
+              Developed a Japanese dictionary as a final project that retrieves example sentences from external sources (news websites, Twitter, YouTube) and automatically generates exercises.
+            </li>
+          </ol>
+        </section>
+
+
+        <!-- Talks section -->
+        <section>
+          <h4>Talks and Speeches</h4>
+          <ol style="list-style-type: square">
+            <li>
+              <strong>Should we really have to learn English?</strong> <i>May 2025</i><br>
+            <a href="https://www.iibc-global.org/iibc/activity/speech_contest.html" target="_blank" style="font-size: 1rem;">IIBC Speech Contest</a>, Tokyo, Japan
+            </li>
+          </ol>
+        </section>
+
+        <!-- Awards section -->
+        <section>
+          <h4>Awards and Grants</h4>
+          <ol style="list-style-type: square">
+            <li>
+              <strong><a href="https://www.jasso.go.jp/en/ryugaku/index.html" target="_blank" style="font-size: 1rem;">International Student Acceptance Promotion Program Scholarship</a></strong> <i>April 2023</i><br>
+              Ministry of Education, Culture, Sports, Science and Technology Scholarship for Foreign Students, Japan
+            </li>
+            <li>
+              <strong><a href="https://politiquesdigitals.gencat.cat/ca/ciutadania/donatic/premis-dona-tic/index.html#googtrans(ca|en)" target="_blank" style="font-size: 1rem;">Dona TIC Award (Women in Tech Award in Spain)</a></strong> <i>October 2021</i><br>
+              Second finalist in the College Student Category, Barcelona, Spain
+            </li>
+          </ol>
+        </section>
+
+        <!-- Language section -->
+        <section>
+          <h4>Language proficiency</h4>
+          <ol style="list-style-type: square">
+            <li><strong>Catalan</strong> <i>Native</i></li>
+            <li><strong>Spanish</strong> <i>Native</i></li>
+            <li><strong>English</strong> <i>Fluent</i></li>
+            <li><strong>Japanese</strong> <i>Fluent</i></li>
+            <li><strong>Chinese</strong> <i>HSK 4</i></li>
+          </ol>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <div style="text-align:center">
+        <p>Bazan Shinko - May 2025</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript ================================================== -->
+  <!-- Placed at the end of the document for faster page loading -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
