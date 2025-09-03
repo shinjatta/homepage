@@ -38,10 +38,11 @@
     .toggle-btn[aria-expanded="true"] .arrow {
       transform: rotate(-90deg);
     }
-    .projects-section a {
+
+    .blue {
       color: #007bff;
     }
-    .projects-section a:hover {
+    .blue:hover {
       color: #0056b3;
     }
 
@@ -89,7 +90,9 @@
         <section>
           <h4>概要</h4>
           <ol style="list-style-type: none">
-            <li>奈良女子大学の学部生です。</li>
+            <li>
+              奈良女子大学の学部生であり、<a class="blue" href="https://nara-wu-slc.jp/">Lab4SLC</a>（音声・言語・コミュニケーション研究室）に所属しています。
+            </li>
           </ol>
         </section>
         <section>
@@ -97,7 +100,7 @@
           <ol style="list-style-type: square">
             <li><strong><a href="https://www.nara-wu.ac.jp/life/ccs/lics/" target="_blank" style="font-size: 1rem;">生活環境学部 文化情報学科 生活情報通信科学コース</a></strong> <i>2023年4月 – 2027年3月</i><br><a href="https://www.nara-wu.ac.jp/" target="_blank">奈良女子大学</a> – 奈良</li>
             <li><strong><a href="https://www.tokyogalaxy.ac.jp/courses/preparatory-class" target="_blank" style="font-size: 1rem;">大学特進コース</a></strong> <i>2021年10月 – 2023年3月</i><br><a href="https://www.tokyogalaxy.ac.jp/school" target="_blank" style="font-size: 1rem;">東京ギャラクシー日本語学校</a> – 東京</li>
-            <li><strong><a href="https://stucom.com/formacio-professional/grau-superior/desenvolupament-aplicacions-web/" target="_blank" style="font-size: 1rem;">専門学校 – ウェブプログラミング</a></strong> <i>2019年9月 – 2021年5月</i><br><a href="https://stucom.com/" target="_blank" style="font-size: 1rem;">ストゥコム教育センター</a> – バルセロナ</li>
+            <li><strong><a href="https://stucom.com/formacio-professional/grau-superior/desenvolupament-aplicacions-web/" target="_blank" style="font-size: 1rem;">専門学校 – ウェブ開発</a></strong> <i>2019年9月 – 2021年5月</i><br><a href="https://stucom.com/" target="_blank" style="font-size: 1rem;">ストゥコム教育センター</a> – バルセロナ</li>
           </ol>
         </section>
         <section>
@@ -120,22 +123,52 @@
           </div>
         </section>
         <section class="projects-section">
-        <h4>プロジェクト</h4>
-        <ol style="list-style-type: square">
-        <li>
-        <strong>Rei日本語辞書</strong> <i>2021年</i>
-      （<a href="https://github.com/shinjatta/rei">Git</a> | 
-          <a href="https://stucom.com/projects/rei-diccionari-en-japones-amb-traduccio-al-angles-i-castella/">記事</a>）<br>
-          外部サイトから例文を取得し、自動的に練習問題を生成する日本語辞書アプリ。
-        </li>
-        </ol>
-        </section>
-        <section>
-          <h4>講演・スピーチ</h4>
+
+        <!-- Projects section -->
+        <section class="projects-section">
+          <h4>プロジェクト</h4>
           <ol style="list-style-type: square">
-            <li><strong>Should we really have to learn English?</strong> <i>2025年5月</i><br><a href="https://www.iibc-global.org/iibc/activity/speech_contest.html" target="_blank" style="font-size: 1rem;">IIBCスピーチコンテスト</a>、東京、日本</li>
+            <li>
+              <strong>グワハティ（アッサム州）の洪水予測プロジェクトへの協力</strong> <i>2025年7月</i><br>
+              R言語を用いて、Terra MODIS衛星の日次画像による地理空間解析および時系列解析を行い、データの可視化と解釈を実施。
+            </li>
+          </ol>
+          <ol style="list-style-type: square">
+            <li>
+              <strong>Rei日本語辞書</strong> <i>2021年</i>
+              （<a class="blue" href="https://github.com/shinjatta/rei">Git</a> | 
+              <a class="blue" href="https://stucom.com/projects/rei-diccionari-en-japones-amb-traduccio-al-angles-i-castella/">記事</a>）<br>
+              外部サイト（ニュースサイト、Twitter、YouTube）から例文を取得し、自動的に練習問題を生成する日本語辞書アプリとして、最終プロジェクトとして開発。
+            </li>
           </ol>
         </section>
+
+        <!-- Talks section -->
+        <section class="talks-section">
+            <h4>講演・スピーチ</h4>
+            <ol style="list-style-type: square">
+              <li>
+                <strong>スペインにおける女性エンジニア</strong> <i>2025年7月</i><br>
+                大阪・日本国際博覧会2025 女性パビリオン、大阪、日本
+                (<a class="blue" href="https://www.linkedin.com/feed/update/urn:li:activity:7354789897016127488/">記事</a>)<br>
+              </li>
+              <li>
+                <strong>Should we really have to learn English?</strong> <i>2025年5月</i><br>
+                <a href="https://www.iibc-global.org/iibc/activity/speech_contest.html" target="_blank" style="font-size: 1rem;">IIBCスピーチコンテスト</a>、東京、日本
+                ( <a class="blue" href="https://gakumado.mynavi.jp/gmd/articles/79819">記事1</a> | <a class="blue" href="https://prtimes.jp/main/html/rd/p/000000186.000051295.html">記事2</a> | <a class="blue" href="https://gakumado.mynavi.jp/gmd/articles/79819">記事3</a> )<br>
+              </li>
+              <li>
+                <strong>カタルーニャ地方の伝統</strong> <i>2024年12月</i><br>
+                <a href="https://www.nara-iea.com/" target="_blank" style="font-size: 1rem;">奈良市国際交流協会</a>、奈良、日本
+                ( <a class="blue" href="https://www.nara-iea.com/%e4%bb%a4%e5%92%8c6%e5%b9%b4%e5%ba%a6%e3%80%80%e7%ac%ac8%e5%9b%9e%e5%a5%88%e8%89%af%e5%b8%82%e5%9b%bd%e9%9a%9b%e4%ba%a4%e6%b5%81%e5%87%ba%e5%89%8d%e8%ac%9b%e5%ba%a7%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97/">記事1</a> )<br>
+              </li>
+              <li>
+                <strong>スペインにおける社会問題</strong> 
+                <i>2024年7月</i><br>田原本町公民館、田原本町、日本</li>
+            </ol>
+        </section>
+
+        <!-- Awards section -->
         <section>
           <h4>受賞歴・助成金</h4>
           <ol style="list-style-type: square">
@@ -143,6 +176,24 @@
             <li><strong><a href="https://politiquesdigitals.gencat.cat/ca/ciutadania/donatic/premis-dona-tic/index.html#googtrans(ca|ja)" target="_blank" style="font-size: 1rem;">Dona TIC賞（スペインの女性技術者賞）</a></strong> <i>2021年10月</i><br>専門学校生ファイナリスト、バルセロナ、スペイン</li>
           </ol>
         </section>
+
+        <!-- Other learning section -->
+        <section>
+          <h4>課外学習経験</h4>
+          <ol style="list-style-type: square">
+            <li>
+              <strong><a href="https://aip.riken.jp/news/scamp2024/?lang=ja" target="_blank" style="font-size: 1rem;">数理・情報科学分野女子学生のためのサマーキャンプ</a></strong> <i>2025年9月</i><br>
+              理化学研究所AIP、東京工業大学、東京大学、慶應義塾大学、日本
+            </li>
+            <li>
+              <strong><a href="https://news.shisu.edu.cn/international/1/20250814/2745.html" target="_blank" style="font-size: 1rem;">漢語橋サマーキャンプ</a></strong> <i>2025年8月</i><br>
+              上海外国語大学、中国・上海
+            </li>
+          </ol>
+        </section>
+
+
+        <!-- Language section -->
         <section>
           <h4>言語能力</h4>
           <ol style="list-style-type: square">
@@ -153,6 +204,7 @@
             <li><strong>中国語</strong> <i>HSK 4</i></li>
           </ol>
         </section>
+
       </section>
     </div>
   </main>
